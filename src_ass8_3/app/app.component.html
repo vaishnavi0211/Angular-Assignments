@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+    <body>
+    <input  type="text"
+            id="mystr"
+            oninput="myFunction()">
+<p id="demo"></p>
+<script>
+    function myFunction(){
+        let str=document.getElementById("mystr").value;
+        document.getElementById("demo").innerHTML="length : "+str.length;
+    }
+</script>
+</body>
+</html>
